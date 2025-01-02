@@ -30,13 +30,15 @@ The dataset should be placed in the following directory structure:
 ```
 intel_image_classification/
     seg_train/
-        class_1/
-        class_2/
-        ...
+        seg_train/
+            class_1/
+            class_2/
+            ...
     seg_test/
-        class_1/
-        class_2/
-        ...
+        seg_test/
+            class_1/
+            class_2/
+            ...
 ```
 
 ---
