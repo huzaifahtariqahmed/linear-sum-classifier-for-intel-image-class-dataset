@@ -140,6 +140,11 @@ This project demonstrates how to train a Linear SVM Classifier using HOG feature
 
 This project is licensed under the MIT License.
 
+--- 
+
+**Contributions**: All of the code in this repository is written by [Huzaifah Tariq Ahmed](https://github.com/huzaifahtariqahmed). 
+
+
 
 
 
