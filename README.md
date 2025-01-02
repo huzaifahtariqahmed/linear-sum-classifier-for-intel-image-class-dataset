@@ -1,6 +1,6 @@
 # A Linear SVM Classifier Trained on Intel Image Classification Dataset
 
-This repository demonstrates the training of a Linear SVM Classifier on the Intel Image Classification Dataset. The classifier is trained on extracted HOG (Histogram of Oriented Gradients) features and achieves satisfactory results on training, validation, and test datasets.
+This project demonstrates the training of a Linear SVM Classifier on the Intel Image Classification Dataset. The classifier is trained on extracted HOG (Histogram of Oriented Gradients) features and achieves satisfactory results on training, validation, and test datasets.
 
 ## Table of Contents
 - [Setup](#setup)
@@ -9,7 +9,6 @@ This repository demonstrates the training of a Linear SVM Classifier on the Inte
 - [Feature Extraction](#feature-extraction)
 - [Training and Evaluation](#training-and-evaluation)
 - [Results](#results)
-- [Confusion Matrix Visualization](#confusion-matrix-visualization)
 
 ---
 
@@ -117,32 +116,15 @@ Training achieves:
 - **Training Accuracy**: 85.04%
 - **Validation Accuracy**: 72.96%
 
+![Train and Val Confusion Matrix](Images/train_val_result)
+
 ---
 
-## Results
+## Test Results
 
 The trained SVM model achieves the following on the test set:
 
 - **Test Accuracy**: 70.6%
-
----
-
-## Confusion Matrix Visualization
-
-A confusion matrix is used to evaluate the performance of the classifier. It is visualized using `seaborn`:
-
-```python
-def get_confusion_matrix(clf, X, Y, title):
-    res = clf.predict(X)
-    cm = metrics.confusion_matrix(Y, res)
-    sns.heatmap(cm, annot=True, fmt=".3f", linewidths=.5, square=True, cmap='Blues_r')
-    plt.ylabel('Actual label')
-    plt.xlabel('Predicted label')
-    plt.title(f"Confusion matrix {title} data")
-```
-
-### Test Set Confusion Matrix
-![Confusion Matrix Example](#)
 
 ---
 
