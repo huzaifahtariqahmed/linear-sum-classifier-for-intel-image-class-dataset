@@ -126,6 +126,8 @@ The trained SVM model achieves the following on the test set:
 
 - **Test Accuracy**: 70.6%
 
+![Test Confusion Matrix](/Images/test_result.png)
+
 ---
 
 ## Conclusion
