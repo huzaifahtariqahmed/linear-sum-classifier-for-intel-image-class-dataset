@@ -1,1 +1,1 @@
-# linear-sum-classifier-for-intel-image-class-dataset
+# A Linear SVM Classifier Trained on Intel Image Classification Dataset
