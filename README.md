@@ -116,7 +116,7 @@ Training achieves:
 - **Training Accuracy**: 85.04%
 - **Validation Accuracy**: 72.96%
 
-![Train and Val Confusion Matrix](Images/train_val_result)
+![Train and Val Confusion Matrix](/Images/train_val_result)
 
 ---
 
